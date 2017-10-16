@@ -1,0 +1,94 @@
+.topMemu {
+  	height: 28px!important;
+/*   	background-color: #065D65!important; */
+ 	margin-top : 0px;
+ 	overflow-x: hidden; 
+ 	overflow-y: auto;
+ 	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#02626C,endColorStr=#068894)!important;; /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, rgb(2,98,108),  rgb(6,136,148))!important;;        /* IE 10 */
+	background:-moz-linear-gradient(top,rgb(2,98,108),rgb(6,136,148))!important;;/*»ðºü*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(2,98,108)), to(rgb(6,136,148)))!important;;/*¹È¸è*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(2,98,108)), to(rgb(6,136,148)))!important;;      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, rgb(2,98,108), rgb(6,136,148))!important;;   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, rgb(2,98,108), rgb(6,136,148))!important;;  /*Opera 11.10+*/
+ }
+.topMemu a {
+   	color: rgb(211,253,251);
+   	margin: 1px;
+   	padding-left: 10px;
+ }
+.topMemu a:hover{
+ 	color: #909090;
+ }
+ #mainMenu {
+ 
+ }
+ 
+ .north {
+ 	BACKGROUND: #A8D7E9; 
+ 	height: 111px; 
+ 	padding: 0px; 
+ 	overflow: hidden;
+ 	
+ 	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F0F4FA,endColorStr=#CCD1D9)!important;; /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, rgb(240,244,250),  rgb(204,209,217))!important;;        /* IE 10 */
+	background:-moz-linear-gradient(top,rgb(240,244,250),rgb(204,209,217))!important;;/*»ðºü*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(240,244,250)), to(rgb(204,209,217)))!important;;/*¹È¸è*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(240,244,250)), to(rgb(204,209,217)))!important;;      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, rgb(240,244,250), rgb(204,209,217))!important;;   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, rgb(240,244,250), rgb(204,209,217))!important;;  /*Opera 11.10+*/
+ }
+ .shortcut {
+ 	height: 83px; 	
+	margin-bottom:0px;
+	margin-top:0px;
+ }
+ .shortcut div {
+	 width:73px!important;
+	 position: absolute;
+	 top:51px!important;
+	 text-align:center;
+	 color:#1E7F7C!important;
+	 font-size:14px!important;
+/* 	 font-weight: bolder; */
+/* 	 font-family:Tahoma,Verdana,Î¢Èí¼òÖÐÔ²,ÐÂËÎÌå, Helvetica, Arial, sans-serif!important; */
+ }
+ .shortcut span{
+	 font-size:14px!important;
+/* 	 font-family:Tahoma,Verdana,Î¢Èí¼òÖÐÔ²,ÐÂËÎÌå, Helvetica, Arial, sans-serif!important; */
+ }
+ .shortcut{
+	margin-left: 5px;
+	/* margin-right: 15px; */
+	/* margin-top: 8px; */
+	/* height: 62px; */
+	float: right;
+}
+.shortcut li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+  
+ .icon-group{
+	background:url(/EVIS/plugin/login/images/green_manage.png) no-repeat center center;
+ }
+ 
+ .userInfo {
+	height: 83px;
+ }	
+ .userInfo a{
+	height: 83px;
+	width: 73px;
+	background-image: url(/EVIS/plugin/login/images/green_manage.png);
+ }
+ .userInfo a:hover.l-btn-plain {
+	background: url(/EVIS/plugin/login/images/green_manage_up.png)!important;
+ }
+ .userInfo a .m-btn-downarrow {
+	background: url()!important;
+ }
+ .layout_panel{
+ 	positon:inline;
+ }
